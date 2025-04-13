@@ -1,16 +1,11 @@
-export default function Footer() {
-    return (
-      <div className="footer">
-        <p>Vamos juntos fortalecer essa base e transformar desafios em conquistas!</p>
-        <div className="hashtags">
-          <span>#MatematicaParaCriancas</span>
-          <span>#EducacaoMatematica</span>
-          <span>#OperacoesBasicas</span>
-          <span>#AprendizadoDivertido</span>
-          <span>#FundamentosEscolares</span>
-          <span>#MatemáticaFácil</span>
-          <span>#ConfiançaNosNúmeros</span>
-        </div>
-      </div>
-    );
-  }
+import calcularLogo from '../img/calcularLogo.jpg';
+
+export default function Header() {
+  return (
+    <div className="header">
+      <img src={calcularLogo} alt="Logo Calcular" />
+      <div className="title">Ferramenta de aprendizagem de cálculo</div>
+      <span>07/06/2022</span>
+    </div>
+  );
+}
